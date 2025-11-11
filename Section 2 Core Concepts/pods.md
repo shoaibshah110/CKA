@@ -29,4 +29,4 @@ spec:
         - containerPort: 80
 ```
 
-This pod runs one container using the nginx image, exposing port 80. 
+This pod runs one container using the *nginx* image, exposing *port 80*. 
