@@ -1,10 +1,10 @@
 # PODS
 
-## What are pods?
+> ## What are pods?
 
-- Pod is a single instance of an application. 
-- Smallest object that can be created in kubernetes. 
-- Usually 1 pod = 1 container but sometimes multiple container run in the same pod to help each other. - e.g main app + helper for logging or metrics. 
+> - Pod is a single instance of an application. 
+> - Smallest object that can be created in kubernetes. 
+> - Usually 1 pod = 1 container but sometimes multiple container run in the same pod to help each other. - e.g main app + helper for logging or metrics. 
 
 ## Key features:
 
