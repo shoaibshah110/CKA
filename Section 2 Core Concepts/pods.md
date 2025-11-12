@@ -1,6 +1,6 @@
 # PODS
 
-> ## What are pods?
+## What are pods?
 
 > - Pod is a single instance of an application. 
 > - Smallest object that can be created in kubernetes. 
