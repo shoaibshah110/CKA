@@ -8,7 +8,7 @@ This repository contains my notes, commands, and YAML examples for preparing for
 
 - Build solid understanding of Kubernetes fundamentals  
 - Create quick-reference notes for the CKA exam  
-- Practise using `kubectl` and writing YAML  
+- Practice using `kubectl` and writing YAML  
 - Develop confidence in cluster operations and troubleshooting  
 
 ---
@@ -23,7 +23,7 @@ This repository contains my notes, commands, and YAML examples for preparing for
 
 ## 🚀 Notes
 
-All notes are written from scratch as I progress through my Kubernetes learning and CKA preparation. This repo will be updated regularly as I learn more and practise different scenarios.
+All notes are written from scratch as I progress through my Kubernetes learning and CKA preparation. This repo will be updated regularly as I learn more and Practice different scenarios.
 
 ---
 
