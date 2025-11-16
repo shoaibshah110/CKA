@@ -17,8 +17,6 @@ This repository contains my notes, commands, and YAML examples for preparing for
 
 - VS Code  
 - kubectl  
-- Minikube / Kind  
-- AWS EKS  
 - Markdown  
 
 ---
