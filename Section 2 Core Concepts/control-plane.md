@@ -59,3 +59,20 @@
 ## Key points: 
 - Does not run pods it assigns them. 
 - If a node becomes unavailable, schedular reschedules to another. 
+
+---
+
+# 4. Kube-controller-manager
+- Runs all the controllers that keep the cluster in the desired state. 
+
+## Important controllers:
+- **Node controller**: Monitors nodes, marks them NotReady  
+- **Replication controller**: Ensures the correct number of pods
+- **Deployment controller**: Manages ReplicaSets
+- **EndpointSlice Controller**: Updates services 
+- Service account & token controllers. 
+
+## Key points:
+- A controller = watch + compare + act 
+- It's one binary running many controllers
+
