@@ -1,7 +1,7 @@
 # Control Plane 
 
 ## What is Kubernetes control plane?
-- **Control Plane** is the **brain** of kubernetes. 
+- **Control Plane** is the **brain** of Kubernetes. 
 - It makes all the decisions about the cluster: scheduling, scaling, health and API. 
 
 ---
@@ -27,7 +27,7 @@
 ---
 
 # 2. etcd
-- The cluster's database - stores the entire state of kubernetes. 
+- The cluster's database - stores the entire state of Kubernetes. 
 
 ## What it stores:
 - Pods
@@ -75,4 +75,19 @@
 ## Key points:
 - A controller = watch + compare + act 
 - It's one binary running many controllers
+
+--- 
+
+# 5. cloud-controller-manager
+Integrates Kubernetes with your cloud provider(AWS, GCP, Azure)
+
+## What it handles:
+- Load balancers
+- Persistent Volumes (EBS/EFS)
+- Node lifecycle
+- Cloud-specific networking
+
+## Key points:
+- Only runs when using a cloud provider integration
+- Separates cloud logic from core Kubernetes logic
 
