@@ -122,5 +122,12 @@ Integrates Kubernetes with your cloud provider(AWS, GCP, Azure)
 - Multiple API servers
 - **etcd** clusters (recommend 3, 5, 7 nodes) 
   
+---
 
+# Control Plane Summary (cheat sheet)
+- **kube-apiserver** - Entry point, validates requests, communicates with etcd 
+- **etcd** - Stores all cluster state 
+- **kube-scheduler** - Assigns pods to nodes
+- **kube-controller-manager** - Reconciles state (ensures cluster matches desired state)
+- cloud-controller-manager - Cloud-specific functionality
 
