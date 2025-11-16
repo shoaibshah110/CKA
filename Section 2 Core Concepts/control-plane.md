@@ -104,3 +104,23 @@ Integrates Kubernetes with your cloud provider(AWS, GCP, Azure)
   
 ---
 
+# Key control plane concepts you must know for CKA:
+**Desired VS Actual State**
+- Controllers are constantly trying to make the actual state match the desired state stored in etcd
+
+**The API server is the centre**
+- All commands, controllers, scheduler and kubelets communicate only through the API server
+
+**etcd must be protected**
+- backups are essential
+- if etcd is corrupted or lost, the entire cluster is lost 
+
+**Control plane components run on master nodes**
+- Usually in /etc/kubernetes/manifests as static Pods (in kubeadm clusters)
+
+**Highly available setups**
+- Multiple API servers
+- **etcd** clusters (recommend 3, 5, 7 nodes) 
+  
+
+
