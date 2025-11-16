@@ -1,4 +1,4 @@
-# PODS
+# Pods
 
 ## What are pods?
 - Pod is a single instance of an application. 
