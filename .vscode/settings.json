@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
-        "kubelet"
+        "apiserver",
+        "kubeadm",
+        "kubelet",
+        "kubelets"
     ]
 }
