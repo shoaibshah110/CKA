@@ -94,7 +94,7 @@ Integrates Kubernetes with your cloud provider(AWS, GCP, Azure)
 ---
 
 # How the control plane works together:
-1. You run a command 'kubectl apply -f deployment.yaml'
+1. You run a command `kubectl apply -f deployment.yaml`
 2. **kube-apiserver** validates it and writes the desired state to etcd
 3. **controller-manager** notices the new Deployment and creates a ReplicaSet
 4. The ReplicaSet needs pods - controller-manager requests them
