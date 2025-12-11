@@ -3,6 +3,7 @@
         "apiserver",
         "kubeadm",
         "kubelet",
-        "kubelets"
+        "kubelets",
+        "tolerations"
     ]
 }

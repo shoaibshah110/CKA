@@ -31,3 +31,18 @@
 - template - The pod template used to create pods. This contains: 
     - metadata.labels (labels applied to Pods) 
     - spec (how the Pod runs)
+  
+Important Rule - Selector labels must match the labels in the pod template otherwise the Deployment would be invalid
+
+---
+
+## Pod Level Configuration in a Deployment
+- Anything that affects how or where the Pod runs goes under:
+    - spec.template.spec
+
+## Examples:
+- containers
+- resource requests and limits 
+- nodeSelector or nodeAffinity 
+- tolerations 
+- volumes
